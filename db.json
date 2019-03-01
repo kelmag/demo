@@ -1,14 +1,96 @@
 {
+  "users": [
+    {
+      "id": "123456",
+      "name": "Khalil El Maghraoui",
+      "status": "Frontend developer",
+      "description":
+        "Hello My name is Khalil, In the road to being a great front-end developer, this is my Personal Page, Make sure to leave a comment so I know you came here",
+      "avatar": "./images/Avatar.png",
+      "birthDate": "December 25, 1995",
+      "social": {
+        "linkedin": "linkedin.com/kelmag",
+        "twitter": "linkedin.com/kelmag"
+      },
+      "website": "www.kelmag.com"
+    },
+    {
+      "id": "234567",
+      "name": "Mohamed EL Hachimi (Docker)",
+      "status": "Docker",
+      "description": "Docker",
+      "avatar": "./images/Avatar2.jpeg",
+      "birthDate": "January 17, 1988",
+      "social": {
+        "linkedin": "linkedin.com/Docker",
+        "twitter": "linkedin.com/Docker"
+      },
+      "website": "www.Docker.com"
+    },
+    {
+      "id": "345678",
+      "name": "bigfanjs",
+      "status": "Frontend developer",
+      "description":
+        "Hello My name is Adel, this is my Personal Page, Make sure to leave a comment so I know you came here",
+      "avatar": "./images/Avatar3.jpeg",
+      "birthDate": "June 07, 1994",
+      "social": {
+        "linkedin": "linkedin.com/bigfanjs",
+        "twitter": "twitter.com/bigfanjs"
+      },
+      "website": "www.bigfanjs.com"
+    }
+  ],
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": "1",
+      "authorId": "123456",
+      "date": "December 12, 2018 - 22h31",
+      "content":
+        "This is my first post in this App! It’s seems like it’s easy to be creative, if you are in the right environement and using the right tools and I’ll just added phrases to this text to see how a line break shows..",
+      "like": "22, 662",
+      "comment": "1, 462"
+    },
+    {
+      "id": "2",
+      "authorId": "234567",
+      "date": "December 13, 2018 - 22h31",
+      "content":
+        "This is post number two, It’s seems like it’s easy to be creative, if you are in the right environement and using the right tools and I’ll just added phrases to this text to see how a line break shows..",
+      "like": "662",
+      "comment": "462"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    {
+      "id": "100",
+      "postId": "1",
+      "authorId": "123456",
+      "date": "December 14, 2018 - 19h56",
+      "comment": "This is my first comment yaay!"
+    },
+    {
+      "id": "101",
+      "postId": "1",
+      "authorId": "234567",
+      "date": "December 15, 2018 - 19h56",
+      "comment": "Simhamed! Pikalti! Pikalti! EPikaltiiii!!!"
+    },
+    {
+      "id": "102",
+      "postId": "1",
+      "authorId": "345678",
+      "date": "December 16, 2018 - 09h58",
+      "comment":
+        "Testing long comments. what I liked about this one was the fact that I dont know what the rest of the comment is like, It’s pretty similar with most of these generators in their function and features—but this one simply asks whether you want the ‘lorem ipsum’ gibberish or do you want your gibberish in English words."
+    },
+    {
+      "id": "103",
+      "postId": "2",
+      "authorId": "345678",
+      "date": "December 17, 2018 - 10h08",
+      "comment": "This is a comment for post 2 by bigfan"
+    }
+  ]
 }
